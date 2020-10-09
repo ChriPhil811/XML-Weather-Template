@@ -19,13 +19,19 @@ namespace XMLWeather
 
         public void displayForecast()
         {
-            date1.Text = Form1.days[1].date;
-            min1.Text = Form1.days[1].tempLow;
-            max1.Text = Form1.days[1].tempHigh;
+            day1.Text = DateTime.Now.ToString("dddd");
 
-            date2.Text = Form1.days[2].date;
-            min2.Text = Form1.days[2].tempLow;
-            max2.Text = Form1.days[2].tempHigh;
+            day2.Text = DateTime.Now.AddDays(1).DayOfWeek.ToString();
+
+            day3.Text = DateTime.Now.AddDays(2).DayOfWeek.ToString();
+
+            day4.Text = DateTime.Now.AddDays(3).DayOfWeek.ToString();
+
+            day5.Text = DateTime.Now.AddDays(4).DayOfWeek.ToString();
+
+            day6.Text = DateTime.Now.AddDays(5).DayOfWeek.ToString();
+
+            day7.Text = DateTime.Now.AddDays(6).DayOfWeek.ToString();
         }
 
         private void label3_Click(object sender, EventArgs e)
