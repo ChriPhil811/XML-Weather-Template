@@ -19,7 +19,10 @@ namespace XMLWeather
 
         public void DisplayCurrent()
         {
+            dateOutput.Text = DateTime.Now.ToString("dddd");
+            conditionOutput.Text = Form1.days[0].condition;
             cityOutput.Text = Form1.days[0].location;
+            feelsOutput.Text = "Feels Like " + Form1.days[0].feelTemp;
             tempLabel.Text = Form1.days[0].currentTemp;
             minOutput.Text = Form1.days[0].tempLow;
             maxOutput.Text = Form1.days[0].tempHigh;
