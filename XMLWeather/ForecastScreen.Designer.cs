@@ -46,6 +46,10 @@
             this.day5 = new System.Windows.Forms.Label();
             this.day4 = new System.Windows.Forms.Label();
             this.day7 = new System.Windows.Forms.Label();
+            this.lowDay1 = new System.Windows.Forms.Label();
+            this.highDay1 = new System.Windows.Forms.Label();
+            this.highDay2 = new System.Windows.Forms.Label();
+            this.lowDay2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label2
@@ -256,11 +260,59 @@
             this.day7.TabIndex = 87;
             this.day7.Text = "Day7";
             // 
+            // lowDay1
+            // 
+            this.lowDay1.AutoSize = true;
+            this.lowDay1.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lowDay1.ForeColor = System.Drawing.Color.MediumTurquoise;
+            this.lowDay1.Location = new System.Drawing.Point(245, 94);
+            this.lowDay1.Name = "lowDay1";
+            this.lowDay1.Size = new System.Drawing.Size(30, 19);
+            this.lowDay1.TabIndex = 88;
+            this.lowDay1.Text = "low";
+            // 
+            // highDay1
+            // 
+            this.highDay1.AutoSize = true;
+            this.highDay1.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.highDay1.ForeColor = System.Drawing.Color.LightCoral;
+            this.highDay1.Location = new System.Drawing.Point(280, 94);
+            this.highDay1.Name = "highDay1";
+            this.highDay1.Size = new System.Drawing.Size(37, 19);
+            this.highDay1.TabIndex = 89;
+            this.highDay1.Text = "high";
+            // 
+            // highDay2
+            // 
+            this.highDay2.AutoSize = true;
+            this.highDay2.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.highDay2.ForeColor = System.Drawing.Color.LightCoral;
+            this.highDay2.Location = new System.Drawing.Point(280, 153);
+            this.highDay2.Name = "highDay2";
+            this.highDay2.Size = new System.Drawing.Size(37, 19);
+            this.highDay2.TabIndex = 91;
+            this.highDay2.Text = "high";
+            // 
+            // lowDay2
+            // 
+            this.lowDay2.AutoSize = true;
+            this.lowDay2.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lowDay2.ForeColor = System.Drawing.Color.MediumTurquoise;
+            this.lowDay2.Location = new System.Drawing.Point(245, 153);
+            this.lowDay2.Name = "lowDay2";
+            this.lowDay2.Size = new System.Drawing.Size(30, 19);
+            this.lowDay2.TabIndex = 90;
+            this.lowDay2.Text = "low";
+            // 
             // ForecastScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.DimGray;
+            this.Controls.Add(this.highDay2);
+            this.Controls.Add(this.lowDay2);
+            this.Controls.Add(this.highDay1);
+            this.Controls.Add(this.lowDay1);
             this.Controls.Add(this.day7);
             this.Controls.Add(this.day6);
             this.Controls.Add(this.day5);
@@ -305,5 +357,9 @@
         private System.Windows.Forms.Label day5;
         private System.Windows.Forms.Label day4;
         private System.Windows.Forms.Label day7;
+        private System.Windows.Forms.Label lowDay1;
+        private System.Windows.Forms.Label highDay1;
+        private System.Windows.Forms.Label highDay2;
+        private System.Windows.Forms.Label lowDay2;
     }
 }

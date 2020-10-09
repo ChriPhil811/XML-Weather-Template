@@ -42,7 +42,7 @@ namespace XMLWeather
                 day.date = reader.GetAttribute("day");
 
                 reader.ReadToFollowing("temperature");
-                day.tempLow = reader.GetAttribute("min");
+                day.tempLow = Math.Round(Convert.ToDouble(reader.GetAttribute("min")) + "°";
                 day.tempHigh = reader.GetAttribute("max");
 
                 //if day object not null add to the days list
