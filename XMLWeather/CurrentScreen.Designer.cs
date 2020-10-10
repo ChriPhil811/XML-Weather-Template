@@ -47,7 +47,7 @@
             this.cityOutput.BackColor = System.Drawing.Color.Transparent;
             this.cityOutput.Font = new System.Drawing.Font("Poor Richard", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityOutput.ForeColor = System.Drawing.Color.White;
-            this.cityOutput.Location = new System.Drawing.Point(0, 82);
+            this.cityOutput.Location = new System.Drawing.Point(0, 124);
             this.cityOutput.Name = "cityOutput";
             this.cityOutput.Size = new System.Drawing.Size(350, 36);
             this.cityOutput.TabIndex = 22;
@@ -56,13 +56,14 @@
             // 
             // tempLabel
             // 
+            this.tempLabel.BackColor = System.Drawing.Color.Transparent;
             this.tempLabel.Font = new System.Drawing.Font("Poor Richard", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tempLabel.ForeColor = System.Drawing.Color.White;
-            this.tempLabel.Location = new System.Drawing.Point(24, 128);
+            this.tempLabel.Location = new System.Drawing.Point(24, 215);
             this.tempLabel.Name = "tempLabel";
             this.tempLabel.Size = new System.Drawing.Size(326, 78);
             this.tempLabel.TabIndex = 26;
-            this.tempLabel.Text = "Temp";
+            this.tempLabel.Text = "X°";
             this.tempLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label3
@@ -79,7 +80,7 @@
             // forecastLabel
             // 
             this.forecastLabel.BackColor = System.Drawing.Color.Transparent;
-            this.forecastLabel.Font = new System.Drawing.Font("Poor Richard", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.forecastLabel.Font = new System.Drawing.Font("Poor Richard", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.forecastLabel.ForeColor = System.Drawing.Color.White;
             this.forecastLabel.Location = new System.Drawing.Point(245, 14);
             this.forecastLabel.Name = "forecastLabel";
@@ -90,9 +91,10 @@
             // 
             // minOutput
             // 
+            this.minOutput.BackColor = System.Drawing.Color.Transparent;
             this.minOutput.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minOutput.ForeColor = System.Drawing.Color.MediumTurquoise;
-            this.minOutput.Location = new System.Drawing.Point(125, 206);
+            this.minOutput.Location = new System.Drawing.Point(125, 293);
             this.minOutput.Name = "minOutput";
             this.minOutput.Size = new System.Drawing.Size(45, 20);
             this.minOutput.TabIndex = 43;
@@ -101,9 +103,10 @@
             // 
             // maxOutput
             // 
+            this.maxOutput.BackColor = System.Drawing.Color.Transparent;
             this.maxOutput.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maxOutput.ForeColor = System.Drawing.Color.LightCoral;
-            this.maxOutput.Location = new System.Drawing.Point(176, 206);
+            this.maxOutput.Location = new System.Drawing.Point(176, 293);
             this.maxOutput.Name = "maxOutput";
             this.maxOutput.Size = new System.Drawing.Size(45, 20);
             this.maxOutput.TabIndex = 44;
@@ -114,7 +117,7 @@
             this.dateOutput.BackColor = System.Drawing.Color.Transparent;
             this.dateOutput.Font = new System.Drawing.Font("Poor Richard", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateOutput.ForeColor = System.Drawing.Color.White;
-            this.dateOutput.Location = new System.Drawing.Point(0, 292);
+            this.dateOutput.Location = new System.Drawing.Point(0, 442);
             this.dateOutput.Name = "dateOutput";
             this.dateOutput.Size = new System.Drawing.Size(350, 23);
             this.dateOutput.TabIndex = 45;
@@ -126,7 +129,7 @@
             this.conditionOutput.BackColor = System.Drawing.Color.Transparent;
             this.conditionOutput.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conditionOutput.ForeColor = System.Drawing.Color.White;
-            this.conditionOutput.Location = new System.Drawing.Point(0, 315);
+            this.conditionOutput.Location = new System.Drawing.Point(0, 465);
             this.conditionOutput.Name = "conditionOutput";
             this.conditionOutput.Size = new System.Drawing.Size(350, 23);
             this.conditionOutput.TabIndex = 46;
@@ -138,11 +141,11 @@
             this.feelsOutput.BackColor = System.Drawing.Color.Transparent;
             this.feelsOutput.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.feelsOutput.ForeColor = System.Drawing.Color.Khaki;
-            this.feelsOutput.Location = new System.Drawing.Point(0, 111);
+            this.feelsOutput.Location = new System.Drawing.Point(0, 198);
             this.feelsOutput.Name = "feelsOutput";
             this.feelsOutput.Size = new System.Drawing.Size(350, 23);
             this.feelsOutput.TabIndex = 47;
-            this.feelsOutput.Text = "Feels Like";
+            this.feelsOutput.Text = "Feels Like X°";
             this.feelsOutput.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label1
@@ -150,7 +153,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(0, 333);
+            this.label1.Location = new System.Drawing.Point(0, 483);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(350, 17);
             this.label1.TabIndex = 48;
@@ -174,7 +177,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(0, 275);
+            this.label4.Location = new System.Drawing.Point(0, 425);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(350, 17);
             this.label4.TabIndex = 50;
@@ -200,6 +203,7 @@
             this.Controls.Add(this.tempLabel);
             this.Name = "CurrentScreen";
             this.Size = new System.Drawing.Size(350, 500);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.CurrentScreen_Paint);
             this.ResumeLayout(false);
 
         }

@@ -30,6 +30,8 @@ namespace XMLWeather
 
         private void ExtractForecast()
         {
+            #region filling days list with general info
+
             XmlReader reader = XmlReader.Create("http://api.openweathermap.org/data/2.5/forecast/daily?q=Stratford,CA&mode=xml&units=metric&cnt=7&appid=3f2e224b815c0ed45524322e145149f0");
 
             while (reader.Read())
@@ -38,20 +40,25 @@ namespace XMLWeather
                 Day day = new Day();
 
                 //fill day object with required data
-                reader.ReadToFollowing("time");
-                day.date = reader.GetAttribute("day");
+                reader.ReadToFollowing("symbol");
+                day.condition = reader.GetAttribute("name");
+                day.conditionIcon = reader.GetAttribute("var");
 
                 reader.ReadToFollowing("temperature");
-                day.tempLow = Math.Round(Convert.ToDouble(reader.GetAttribute("min")) + "°";
-                day.tempHigh = reader.GetAttribute("max");
+                day.tempLow = Math.Round(Convert.ToDouble(reader.GetAttribute("min"))) + "°";
+                day.tempHigh = Math.Round(Convert.ToDouble(reader.GetAttribute("max"))) + "°";
 
                 //if day object not null add to the days list
                 days.Add(day);
             }
+
+            #endregion filling days list with general info
         }
 
         private void ExtractCurrent()
         {
+            #region filling additional info for day 1
+
             // current info is not included in forecast file so we need to use this file to get it
             XmlReader reader = XmlReader.Create("http://api.openweathermap.org/data/2.5/weather?q=Stratford,CA&mode=xml&units=metric&appid=3f2e224b815c0ed45524322e145149f0");
 
@@ -67,13 +74,7 @@ namespace XMLWeather
             reader.ReadToFollowing("feels_like");
             days[0].feelTemp = Math.Round(Convert.ToDouble(reader.GetAttribute("value"))) + "°";
 
-            //find the low and high temp and round them, then add to currect day in the list
-            days[0].tempLow = Math.Round(Convert.ToDouble(days[0].tempLow)) + "°";
-            days[0].tempHigh = Math.Round(Convert.ToDouble(days[0].tempHigh)) + "°";
-
-            //find the outdoor conditions and add to currect day in the list
-            reader.ReadToFollowing("weather");
-            days[0].condition = reader.GetAttribute("value");
+            #endregion filling additional info for day 1
         }
     }
 }
