@@ -203,6 +203,7 @@
             // day1
             // 
             this.day1.AutoSize = true;
+            this.day1.BackColor = System.Drawing.Color.Transparent;
             this.day1.Font = new System.Drawing.Font("Poor Richard", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.day1.ForeColor = System.Drawing.Color.White;
             this.day1.Location = new System.Drawing.Point(40, 85);
@@ -214,6 +215,7 @@
             // day2
             // 
             this.day2.AutoSize = true;
+            this.day2.BackColor = System.Drawing.Color.Transparent;
             this.day2.Font = new System.Drawing.Font("Poor Richard", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.day2.ForeColor = System.Drawing.Color.White;
             this.day2.Location = new System.Drawing.Point(40, 145);
@@ -225,6 +227,7 @@
             // day3
             // 
             this.day3.AutoSize = true;
+            this.day3.BackColor = System.Drawing.Color.Transparent;
             this.day3.Font = new System.Drawing.Font("Poor Richard", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.day3.ForeColor = System.Drawing.Color.White;
             this.day3.Location = new System.Drawing.Point(40, 205);
@@ -236,6 +239,7 @@
             // day6
             // 
             this.day6.AutoSize = true;
+            this.day6.BackColor = System.Drawing.Color.Transparent;
             this.day6.Font = new System.Drawing.Font("Poor Richard", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.day6.ForeColor = System.Drawing.Color.White;
             this.day6.Location = new System.Drawing.Point(40, 385);
@@ -247,6 +251,7 @@
             // day5
             // 
             this.day5.AutoSize = true;
+            this.day5.BackColor = System.Drawing.Color.Transparent;
             this.day5.Font = new System.Drawing.Font("Poor Richard", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.day5.ForeColor = System.Drawing.Color.White;
             this.day5.Location = new System.Drawing.Point(40, 325);
@@ -258,6 +263,7 @@
             // day4
             // 
             this.day4.AutoSize = true;
+            this.day4.BackColor = System.Drawing.Color.Transparent;
             this.day4.Font = new System.Drawing.Font("Poor Richard", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.day4.ForeColor = System.Drawing.Color.White;
             this.day4.Location = new System.Drawing.Point(40, 265);
@@ -269,6 +275,7 @@
             // day7
             // 
             this.day7.AutoSize = true;
+            this.day7.BackColor = System.Drawing.Color.Transparent;
             this.day7.Font = new System.Drawing.Font("Poor Richard", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.day7.ForeColor = System.Drawing.Color.White;
             this.day7.Location = new System.Drawing.Point(40, 445);
@@ -280,6 +287,7 @@
             // lowDay1
             // 
             this.lowDay1.AutoSize = true;
+            this.lowDay1.BackColor = System.Drawing.Color.Transparent;
             this.lowDay1.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lowDay1.ForeColor = System.Drawing.Color.MediumTurquoise;
             this.lowDay1.Location = new System.Drawing.Point(268, 93);
@@ -291,6 +299,7 @@
             // highDay1
             // 
             this.highDay1.AutoSize = true;
+            this.highDay1.BackColor = System.Drawing.Color.Transparent;
             this.highDay1.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.highDay1.ForeColor = System.Drawing.Color.LightCoral;
             this.highDay1.Location = new System.Drawing.Point(303, 93);
@@ -302,6 +311,7 @@
             // highDay2
             // 
             this.highDay2.AutoSize = true;
+            this.highDay2.BackColor = System.Drawing.Color.Transparent;
             this.highDay2.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.highDay2.ForeColor = System.Drawing.Color.LightCoral;
             this.highDay2.Location = new System.Drawing.Point(303, 153);
@@ -313,6 +323,7 @@
             // lowDay2
             // 
             this.lowDay2.AutoSize = true;
+            this.lowDay2.BackColor = System.Drawing.Color.Transparent;
             this.lowDay2.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lowDay2.ForeColor = System.Drawing.Color.MediumTurquoise;
             this.lowDay2.Location = new System.Drawing.Point(268, 153);
@@ -324,6 +335,7 @@
             // highDay3
             // 
             this.highDay3.AutoSize = true;
+            this.highDay3.BackColor = System.Drawing.Color.Transparent;
             this.highDay3.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.highDay3.ForeColor = System.Drawing.Color.LightCoral;
             this.highDay3.Location = new System.Drawing.Point(303, 213);
@@ -335,6 +347,7 @@
             // lowDay3
             // 
             this.lowDay3.AutoSize = true;
+            this.lowDay3.BackColor = System.Drawing.Color.Transparent;
             this.lowDay3.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lowDay3.ForeColor = System.Drawing.Color.MediumTurquoise;
             this.lowDay3.Location = new System.Drawing.Point(268, 213);
@@ -346,6 +359,7 @@
             // highDay4
             // 
             this.highDay4.AutoSize = true;
+            this.highDay4.BackColor = System.Drawing.Color.Transparent;
             this.highDay4.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.highDay4.ForeColor = System.Drawing.Color.LightCoral;
             this.highDay4.Location = new System.Drawing.Point(303, 273);
@@ -357,6 +371,7 @@
             // lowDay4
             // 
             this.lowDay4.AutoSize = true;
+            this.lowDay4.BackColor = System.Drawing.Color.Transparent;
             this.lowDay4.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lowDay4.ForeColor = System.Drawing.Color.MediumTurquoise;
             this.lowDay4.Location = new System.Drawing.Point(268, 273);
@@ -368,6 +383,7 @@
             // highDay5
             // 
             this.highDay5.AutoSize = true;
+            this.highDay5.BackColor = System.Drawing.Color.Transparent;
             this.highDay5.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.highDay5.ForeColor = System.Drawing.Color.LightCoral;
             this.highDay5.Location = new System.Drawing.Point(303, 333);
@@ -379,6 +395,7 @@
             // lowDay5
             // 
             this.lowDay5.AutoSize = true;
+            this.lowDay5.BackColor = System.Drawing.Color.Transparent;
             this.lowDay5.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lowDay5.ForeColor = System.Drawing.Color.MediumTurquoise;
             this.lowDay5.Location = new System.Drawing.Point(268, 333);
@@ -390,6 +407,7 @@
             // highDay6
             // 
             this.highDay6.AutoSize = true;
+            this.highDay6.BackColor = System.Drawing.Color.Transparent;
             this.highDay6.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.highDay6.ForeColor = System.Drawing.Color.LightCoral;
             this.highDay6.Location = new System.Drawing.Point(303, 393);
@@ -401,6 +419,7 @@
             // lowDay6
             // 
             this.lowDay6.AutoSize = true;
+            this.lowDay6.BackColor = System.Drawing.Color.Transparent;
             this.lowDay6.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lowDay6.ForeColor = System.Drawing.Color.MediumTurquoise;
             this.lowDay6.Location = new System.Drawing.Point(268, 393);
@@ -412,6 +431,7 @@
             // highDay7
             // 
             this.highDay7.AutoSize = true;
+            this.highDay7.BackColor = System.Drawing.Color.Transparent;
             this.highDay7.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.highDay7.ForeColor = System.Drawing.Color.LightCoral;
             this.highDay7.Location = new System.Drawing.Point(303, 453);
@@ -423,6 +443,7 @@
             // lowDay7
             // 
             this.lowDay7.AutoSize = true;
+            this.lowDay7.BackColor = System.Drawing.Color.Transparent;
             this.lowDay7.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lowDay7.ForeColor = System.Drawing.Color.MediumTurquoise;
             this.lowDay7.Location = new System.Drawing.Point(268, 453);
@@ -433,7 +454,8 @@
             // 
             // conditionDay7
             // 
-            this.conditionDay7.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conditionDay7.BackColor = System.Drawing.Color.Transparent;
+            this.conditionDay7.Font = new System.Drawing.Font("Poor Richard", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conditionDay7.ForeColor = System.Drawing.Color.LightGray;
             this.conditionDay7.Location = new System.Drawing.Point(152, 453);
             this.conditionDay7.Name = "conditionDay7";
@@ -444,7 +466,8 @@
             // 
             // conditionDay6
             // 
-            this.conditionDay6.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conditionDay6.BackColor = System.Drawing.Color.Transparent;
+            this.conditionDay6.Font = new System.Drawing.Font("Poor Richard", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conditionDay6.ForeColor = System.Drawing.Color.LightGray;
             this.conditionDay6.Location = new System.Drawing.Point(152, 393);
             this.conditionDay6.Name = "conditionDay6";
@@ -455,7 +478,8 @@
             // 
             // conditionDay5
             // 
-            this.conditionDay5.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conditionDay5.BackColor = System.Drawing.Color.Transparent;
+            this.conditionDay5.Font = new System.Drawing.Font("Poor Richard", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conditionDay5.ForeColor = System.Drawing.Color.LightGray;
             this.conditionDay5.Location = new System.Drawing.Point(152, 333);
             this.conditionDay5.Name = "conditionDay5";
@@ -466,7 +490,8 @@
             // 
             // conditionDay4
             // 
-            this.conditionDay4.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conditionDay4.BackColor = System.Drawing.Color.Transparent;
+            this.conditionDay4.Font = new System.Drawing.Font("Poor Richard", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conditionDay4.ForeColor = System.Drawing.Color.LightGray;
             this.conditionDay4.Location = new System.Drawing.Point(152, 273);
             this.conditionDay4.Name = "conditionDay4";
@@ -477,7 +502,8 @@
             // 
             // conditionDay3
             // 
-            this.conditionDay3.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conditionDay3.BackColor = System.Drawing.Color.Transparent;
+            this.conditionDay3.Font = new System.Drawing.Font("Poor Richard", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conditionDay3.ForeColor = System.Drawing.Color.LightGray;
             this.conditionDay3.Location = new System.Drawing.Point(152, 213);
             this.conditionDay3.Name = "conditionDay3";
@@ -488,7 +514,8 @@
             // 
             // conditionDay2
             // 
-            this.conditionDay2.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conditionDay2.BackColor = System.Drawing.Color.Transparent;
+            this.conditionDay2.Font = new System.Drawing.Font("Poor Richard", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conditionDay2.ForeColor = System.Drawing.Color.LightGray;
             this.conditionDay2.Location = new System.Drawing.Point(152, 153);
             this.conditionDay2.Name = "conditionDay2";
@@ -499,7 +526,8 @@
             // 
             // conditionDay1
             // 
-            this.conditionDay1.Font = new System.Drawing.Font("Poor Richard", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conditionDay1.BackColor = System.Drawing.Color.Transparent;
+            this.conditionDay1.Font = new System.Drawing.Font("Poor Richard", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conditionDay1.ForeColor = System.Drawing.Color.LightGray;
             this.conditionDay1.Location = new System.Drawing.Point(152, 93);
             this.conditionDay1.Name = "conditionDay1";

@@ -124,6 +124,27 @@
   <data name="dayCloudy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dayCloudy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dayDrizzle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dayDrizzle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dayForcast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dayForcast.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nightClear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nightClear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nightCloudy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nightCloudy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nightDrizzle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nightDrizzle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nightForcast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nightForcast.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Rain3" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3474,6 +3495,15 @@
         8mLCPOdJA3rSc0z1rkeO7GWne8b43jvCN77yOeN831EfPNjnvsHAK34no5/94CMUu8lnf23rX4oAqLcB
         FvBECLyHAhnoQAgC7BcTtJIFnYEdwcZtsIM+cgwIxyFCywgwcSdM4UG2lJIWauSFAQEAOw==
 </value>
+  </data>
+  <data name="snow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thunderStorm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thunderStorm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="veryCloudy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\veryCloudy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_01d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\01d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

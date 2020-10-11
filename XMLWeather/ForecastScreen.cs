@@ -11,6 +11,9 @@ namespace XMLWeather
 {
     public partial class ForecastScreen : UserControl
     {
+        //image for background
+        Image background;
+
         //list for weather icons
         List<Image> icons = new List<Image>();
 
@@ -71,7 +74,7 @@ namespace XMLWeather
 
             #endregion information printing
 
-            #region icon drawing
+            #region icon and background drawing
 
             //for each day in the days list, create an image and set it to the appropriate weather icon for the day's condition.
             foreach (Day d in Form1.days)
@@ -93,10 +96,22 @@ namespace XMLWeather
                 icons.Add(image);
             }
 
+            string con = Form1.days[0].conditionIcon;
+
+            //change the background image based on time of day
+            if (con == "01d" || con == "02d" || con == "03d" || con == "04d" || con == "09d" || con == "10d" || con == "11d" || con == "13d") 
+            { 
+                background = Properties.Resources.dayForcast; 
+            }
+            if (con == "01n" || con == "02n" || con == "03n" || con == "04n" || con == "09n" || con == "10n" || con == "11n" || con == "13n") 
+            { 
+                background = Properties.Resources.nightForcast; 
+            }
+
             //refresh the screen graphics
             Refresh();
 
-            #endregion icon drawing
+            #endregion icon and background drawing
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -112,6 +127,9 @@ namespace XMLWeather
 
         private void ForecastScreen_Paint(object sender, PaintEventArgs e)
         {
+            //draw the background
+            e.Graphics.DrawImage(background, 0, 0);
+
             foreach (Image i in icons)
             {
                 //draw the appropriate weather icon
