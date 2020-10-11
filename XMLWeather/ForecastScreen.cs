@@ -96,7 +96,7 @@ namespace XMLWeather
                 icons.Add(image);
             }
 
-            string con = Form1.days[0].conditionIcon;
+            string con = Form1.currentDay.conditionIcon;
 
             //change the background image based on time of day
             if (con == "01d" || con == "02d" || con == "03d" || con == "04d" || con == "09d" || con == "10d" || con == "11d" || con == "13d") 

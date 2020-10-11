@@ -16,6 +16,9 @@ namespace XMLWeather
         //create list to hold day objects
         public static List<Day> days = new List<Day>();
 
+        //new day object for the current day
+        public static Day currentDay = new Day();
+
         public Form1()
         {
             InitializeComponent();
@@ -62,22 +65,19 @@ namespace XMLWeather
             // current info is not included in forecast file so we need to use this file to get it
             XmlReader reader = XmlReader.Create("http://api.openweathermap.org/data/2.5/weather?q=Stratford,CA&mode=xml&units=metric&appid=3f2e224b815c0ed45524322e145149f0");
 
-            //find the city and add to current day
+            //fill the current day object with required data
             reader.ReadToFollowing("city");
-            days[0].location = reader.GetAttribute("name");
+            currentDay.location = reader.GetAttribute("name");
 
-            //find the current temp and round it, then add to current day
             reader.ReadToFollowing("temperature");
-            days[0].currentTemp = Math.Round(Convert.ToDouble(reader.GetAttribute("value"))) + "°";
+            currentDay.currentTemp = Math.Round(Convert.ToDouble(reader.GetAttribute("value"))) + "°";
 
-            //find the feels like temperature and round it, then add to current day
             reader.ReadToFollowing("feels_like");
-            days[0].feelTemp = Math.Round(Convert.ToDouble(reader.GetAttribute("value"))) + "°";
+            currentDay.feelTemp = Math.Round(Convert.ToDouble(reader.GetAttribute("value"))) + "°";
 
-            //find the weather conditions and add to current day
             reader.ReadToFollowing("weather");
-            days[0].condition = reader.GetAttribute("value");
-            days[0].conditionIcon = reader.GetAttribute("icon");
+            currentDay.condition = reader.GetAttribute("value");
+            currentDay.conditionIcon = reader.GetAttribute("icon");
 
             #endregion filling additional info for day 1
         }

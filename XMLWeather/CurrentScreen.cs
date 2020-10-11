@@ -28,10 +28,10 @@ namespace XMLWeather
             #region information printing
 
             dateOutput.Text = DateTime.Now.ToString("dddd, MMMM M");
-            conditionOutput.Text = Form1.days[0].condition;
-            cityOutput.Text = Form1.days[0].location;
-            feelsOutput.Text = "Feels Like " + Form1.days[0].feelTemp;
-            tempLabel.Text = Form1.days[0].currentTemp;
+            conditionOutput.Text = Form1.currentDay.condition;
+            cityOutput.Text = Form1.currentDay.location;
+            feelsOutput.Text = "Feels Like " + Form1.currentDay.feelTemp;
+            tempLabel.Text = Form1.currentDay.currentTemp;
             minOutput.Text = Form1.days[0].tempLow;
             maxOutput.Text = Form1.days[0].tempHigh;
 
@@ -39,7 +39,7 @@ namespace XMLWeather
 
             #region background drawing
 
-            string con = Form1.days[0].conditionIcon;
+            string con = Form1.currentDay.conditionIcon;
 
             //change the background image based on time of day and weather conditions
             if (con == "01d") { background = Properties.Resources.dayClear; }
