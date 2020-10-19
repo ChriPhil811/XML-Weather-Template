@@ -37,7 +37,7 @@ namespace XMLWeather
 
             #endregion information printing
 
-            #region background drawing
+            #region background drawing (and text color)
 
             string con = Form1.currentDay.conditionIcon;
 
@@ -53,7 +53,7 @@ namespace XMLWeather
             if (con == "11d" || con == "11n") { background = Properties.Resources.thunderStorm; }
             if (con == "13d" || con == "13n") { background = Properties.Resources.snow; }
 
-            #endregion background drawing
+            #endregion background drawing (and text color)
         }
 
         private void forecastLabel_Click(object sender, EventArgs e)

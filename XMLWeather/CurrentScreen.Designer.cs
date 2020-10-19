@@ -44,12 +44,12 @@
             // 
             // cityOutput
             // 
-            this.cityOutput.BackColor = System.Drawing.Color.Transparent;
+            this.cityOutput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.cityOutput.Font = new System.Drawing.Font("Poor Richard", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityOutput.ForeColor = System.Drawing.Color.White;
-            this.cityOutput.Location = new System.Drawing.Point(0, 107);
+            this.cityOutput.Location = new System.Drawing.Point(100, 107);
             this.cityOutput.Name = "cityOutput";
-            this.cityOutput.Size = new System.Drawing.Size(350, 36);
+            this.cityOutput.Size = new System.Drawing.Size(150, 36);
             this.cityOutput.TabIndex = 22;
             this.cityOutput.Text = "City";
             this.cityOutput.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -68,25 +68,27 @@
             // 
             // label3
             // 
-            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.label3.Font = new System.Drawing.Font("Poor Richard", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(42, 14);
+            this.label3.Location = new System.Drawing.Point(10, 10);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 28);
+            this.label3.Size = new System.Drawing.Size(100, 30);
             this.label3.TabIndex = 40;
             this.label3.Text = "Today";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // forecastLabel
             // 
-            this.forecastLabel.BackColor = System.Drawing.Color.Transparent;
+            this.forecastLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.forecastLabel.Font = new System.Drawing.Font("Poor Richard", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.forecastLabel.ForeColor = System.Drawing.Color.White;
-            this.forecastLabel.Location = new System.Drawing.Point(245, 14);
+            this.forecastLabel.Location = new System.Drawing.Point(240, 10);
             this.forecastLabel.Name = "forecastLabel";
-            this.forecastLabel.Size = new System.Drawing.Size(83, 28);
+            this.forecastLabel.Size = new System.Drawing.Size(100, 45);
             this.forecastLabel.TabIndex = 41;
             this.forecastLabel.Text = "7 Day";
+            this.forecastLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.forecastLabel.Click += new System.EventHandler(this.forecastLabel_Click);
             // 
             // minOutput
@@ -162,12 +164,12 @@
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(29, 39);
+            this.label2.Location = new System.Drawing.Point(10, 39);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 16);
+            this.label2.Size = new System.Drawing.Size(100, 16);
             this.label2.TabIndex = 49;
             this.label2.Text = "_____________";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
