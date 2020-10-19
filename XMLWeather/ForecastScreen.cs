@@ -14,6 +14,10 @@ namespace XMLWeather
         //image for background
         Image background;
 
+        //brushs for text boxes
+        SolidBrush brush = new SolidBrush(Color.FromArgb(25, 25, 25));
+        SolidBrush brush2 = new SolidBrush(Color.FromArgb(190, 190, 190));
+
         //list for weather icons
         List<Image> icons = new List<Image>();
 
@@ -141,6 +145,12 @@ namespace XMLWeather
 
             //reset imageY to 85
             imageY = 85;
+
+            //today and forcast text boxes
+            e.Graphics.FillRectangle(brush2, 5, 5, 110, 56);
+            e.Graphics.FillRectangle(brush, 10, 10, 100, 46);
+            e.Graphics.FillRectangle(brush2, 235, 5, 110, 56);
+            e.Graphics.FillRectangle(brush, 240, 10, 100, 46);
         }
 
         #endregion paint method

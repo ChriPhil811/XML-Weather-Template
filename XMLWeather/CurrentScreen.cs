@@ -14,8 +14,9 @@ namespace XMLWeather
         //image for background
         Image background;
 
-        //brush for bottom box
+        //brushs for text boxes
         SolidBrush brush = new SolidBrush(Color.FromArgb(25, 25, 25));
+        SolidBrush brush2 = new SolidBrush(Color.FromArgb(190, 190, 190));
 
         public CurrentScreen()
         {
@@ -72,8 +73,18 @@ namespace XMLWeather
             //draw the background
             e.Graphics.DrawImage(background, 0, 0);
 
-            //draw the bottom box
+            //draw text boxes
             e.Graphics.FillRectangle(brush, 0, 435, 350, 65);
+
+            //today and forcast text boxes
+            e.Graphics.FillRectangle(brush2, 5, 5, 110, 56);
+            e.Graphics.FillRectangle(brush, 10, 10, 100, 46);
+            e.Graphics.FillRectangle(brush2, 235, 5, 110, 56);
+            e.Graphics.FillRectangle(brush, 240, 10, 100, 46);
+
+            //city text boxes
+            e.Graphics.FillRectangle(brush2, 110, 102, 130, 46);
+            e.Graphics.FillRectangle(brush, 115, 107, 120, 36);
         }
 
         #endregion paint method
